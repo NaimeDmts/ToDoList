@@ -20,7 +20,8 @@ function displayTask(filter){
 
     if(gorevlistesi.length == 0){
         ul.innerHTML="<p class='p-3 m-0'>Görev Listeniz Boş.</p>"
-    }else{
+    }
+    else{
         for(let gorev of gorevlistesi ){
             
             let completed = gorev.durum == "completed" ? "checked" :"";
