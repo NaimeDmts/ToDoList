@@ -1,0 +1,20 @@
+.dropdown-toggle::after{
+    display: none;
+}
+.task , .controls{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.task label.checked{
+    text-decoration: line-through;
+}
+.filters span.active{
+    color: #3c87ff ;
+}
+.filters span{
+    margin-right: 5px;
+    font-size: 15px;
+    column-rule-color: #444444;
+    cursor: pointer;
+}
